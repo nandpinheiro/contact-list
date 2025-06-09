@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div style={{ maxWidth: '500px', margin: 'auto', padding: '1rem' }}>
-      <h1>📱 Lista de Contatos</h1>
+      <h1>Lista de Contatos</h1>
       <ContactForm
         onSubmit={editingContact ? updateContact : addContact}
         initialData={editingContact}
